@@ -1,0 +1,43 @@
+<html>
+<head> 
+
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script> 
+
+  </head> 
+
+  <body> 
+
+    <a-scene> 
+
+<a-entity geometry="primitive:cone;radiusBottom:0.13;radiusTop:0;height:0.46" position="0.009458770222944057 3.46048702253686 -2.9590678612416728" rotation="90.001 0 0" mixin="null" color="#ff8000" material="color:#ff8000"></a-entity> 
+
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box> 
+
+      <a-sphere position="0 1.25 -3.695962850529633" radius="1.25" color="#EF2D5E" material="color:#c0c0c0" geometry="radius:1.15"></a-sphere> 
+
+      <a-sphere position="0 2.527342272494701 -3.6658427450757767" radius="1.25" color="#EF2D5E" material="color:#c0c0c0" geometry="radius:0.78"></a-sphere>  
+
+        <a-sphere position="-0.16840099282605836 3.726262621291644 -3.266169880865024" radius="1.25" color="#EF2D5E" material="color:#000000" geometry="radius:0.09"></a-sphere> 
+
+        <a-sphere position="0.1870125309989441 3.7108727784112343 -3.280588479962993" radius="1.25" color="#EF2D5E" material="color:#000000" geometry="radius:0.09"></a-sphere> 
+
+        <a-sphere position="0 3.45165414458831 -3.6658427450757767" radius="1.25" color="#EF2D5E" material="color:#c0c0c0" geometry="radius:0.53"></a-sphere> 
+
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder> 
+
+        <a-entity geometry="primitive: cone; radiusBottom: 1; radiusTop: 0.1"></a-entity> 
+
+<a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" material="color:#fa014b" geometry="width:10.31;height:10.329999999999998"></a-plane>      <a-sky color="#ECECEC" material="color:#bae3fc" geometry=""></a-sky> 
+
+        <a-assets> 
+
+            <img id="random" src="howling-wolf-snow.jpg"> </a-assets> 
+
+        <a-image src="#random" height="13" width="15" position="-1.3146624960366462 2.805428933663045 -7.109085253148933" material="" geometry="height:6.74;width:10.580000000000002"> </a-image> 
+
+    </a-scene> 
+
+  </body> 
+
+</html>
+
